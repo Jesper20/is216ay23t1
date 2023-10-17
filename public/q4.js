@@ -1,6 +1,6 @@
 // DO NOT MODIFY THE FOLLOWING URLs
-var url1 = "sales1.json"
-var url2 = "sales2.json"
+var url1 = "../sales1.json"
+var url2 = "../sales2.json"
 
  
 function mergeSales(elem, title, url1, url2) {

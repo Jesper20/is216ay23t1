@@ -53,8 +53,8 @@
         // var url2 = "sales2.json"
        
         function showSales() {
-            let url1 = "sales1.json"
-            let url2 = "sales2.json"
+            let url1 = "../sales1.json"
+            let url2 = "../sales2.json"
             computeSales("#sales1", "Sales1", url1)
             computeSales("#sales2", "Sales2", url2)
 
@@ -63,8 +63,8 @@
                 Part A: Test mergeSales on merging more than 3 authors (1 mark)
                 Part B: Test SortSales on sorting more than 3 authors (1 mark)
             */
-            url1 = "test/tc1/sales1.json"
-            url2 = "test/tc1/sales2.json"
+            url1 = "../test/tc1/sales1.json"
+            url2 = "../test/tc1/sales2.json"
             mergeSales("#tc1a", "Merged Sales", url1, url2)
             sortSales("#tc1b", "Sorted Sales", url1, url2)
 
@@ -73,8 +73,8 @@
                 Part A: Test mergeSales on the corner case of all zero sales (1 mark)
                 Part B: Test SortSales on the corner case of all zero sales (1 mark)
             */
-            url1 = "test/tc2/sales1.json"
-            url2 = "test/tc2/sales2.json"
+            url1 = "../test/tc2/sales1.json"
+            url2 = "../test/tc2/sales2.json"
             mergeSales("#tc2a", "Merged Sales", url1, url2)
             sortSales("#tc2b", "Sorted Sales", url1, url2)
 
@@ -84,8 +84,8 @@
                 Part B: Test sortSales on the case where there are two authors with same #sales and two authors with < 5 sales (1 mark)
                
             */
-            url1 = "test/tc3/sales1.json"
-            url2 = "test/tc3/sales2.json"
+            url1 = "../test/tc3/sales1.json"
+            url2 = "../test/tc3/sales2.json"
             mergeSales("#tc3a", "Merged Sales", url1, url2)
             sortSales("#tc3b", "Sorted Sales", url1, url2)
 
@@ -93,8 +93,8 @@
                 TC4
                 Part A: Test mergeSales on the case where there is only one author (1 mark)
             */
-            url1 = "test/tc4/sales1.json"
-            url2 = "test/tc4/sales2.json"
+            url1 = "../test/tc4/sales1.json"
+            url2 = "../test/tc4/sales2.json"
             mergeSales("#tc4a", "Merged Sales", url1, url2)
             // sortSales("#tc4b", "Sorted Sales", url1, url2) 
         }
