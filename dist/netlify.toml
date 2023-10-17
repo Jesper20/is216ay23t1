@@ -2,3 +2,8 @@
   for = "test/tc3/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "test/tc4/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
