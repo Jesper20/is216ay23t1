@@ -1,0 +1,4 @@
+[[headers]]
+  for = "test/tc3/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
